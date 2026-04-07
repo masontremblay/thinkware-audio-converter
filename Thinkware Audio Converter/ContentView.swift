@@ -34,8 +34,8 @@ struct ContentView: View {
     
     /// Returns the app version and build number from the app bundle.
     private var appVersionText: String {
-        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
-        let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
+        let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "Unknown"
         return "Version \(version) (\(build))"
     }
     
