@@ -122,7 +122,7 @@ No existing files will be overwritten.
 If you require technical support or would like to provide feedback, please contact:
 
 **Mason**
-pupal-pry.7@icloud.com
+at pupal-pry.7@icloud.com
 
 I will respond as soon as possible.
 
