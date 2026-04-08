@@ -14,7 +14,7 @@ This tool was created to solve a compatibility issue encountered when reviewing 
 
 ---
 
-## Running the App
+## Running the Application
 
 If macOS warns that the application cannot be opened, right-click the app in Finder, choose Open, and then confirm. You may need to do this the first time you launch the app.
 
