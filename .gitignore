@@ -13,6 +13,7 @@ xcuserdata/
 ## Workspace user settings
 *.xcworkspace/xcuserdata/
 *.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
 
 ## Debugger settings
 xcdebugger/
