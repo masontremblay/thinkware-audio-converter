@@ -379,7 +379,7 @@ struct ContentView: View {
             }
 
             HStack(spacing: 0) {
-                Text("Convert MP4 clips recorded with Thinkware dash cameras that lose audio in QuickTime or other macOS applications by copying the video stream and converting the audio track to AAC using FFmpeg. This issue occurs because some Thinkware dash cameras record audio in a technically valid format that is not fully supported by certain macos applications, causing the audio track to appear present but fail during playback or editing. Thinkware Audio converter outputs a widely compatible MP4 file that retains audio when opened or edited")
+                Text("Convert MP4 clips recorded with Thinkware dash cameras that lose audio in QuickTime or other Apple applications by copying the video stream and converting the audio track to AAC using FFmpeg. This issue occurs because some Thinkware dash cameras record audio in a technically valid format that is not fully supported by certain macOS applications, causing the audio track to appear present but fail during playback or editing. Thinkware Audio converter outputs a widely compatible MP4 file that retains audio when opened or edited.")
                     .foregroundStyle(.secondary)
             }
         }
