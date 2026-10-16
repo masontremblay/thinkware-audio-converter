@@ -25,11 +25,10 @@ Step-by-step instructions are outlined below. Keep an eye on the **Log** area wi
 ## Step 1: Install Rosetta 2 (Apple Silicon Users)
 To use FFmpeg (and by extension, this app) on a Mac with Apple Silicon, you must have Rosetta 2 installed. If you are using an Intel-based Mac or already have Rosetta 2 installed, you can skip this step.
 - **Method 1:** Open any application built for Intel processors. macOS will automatically prompt you to install Rosetta.
-- **Method 2:** Open Terminal and run the command: softwareupdate --install-rosetta
+- **Method 2:** Open Terminal and run the command: softwareupdate `--install-rosetta`
 
 ## Step 2: Download FFmpeg
-a. Download the static FFmpeg binary for macOS from the official FFmpeg build source:
-https://evermeet.cx/ffmpeg/
+a. Download the static FFmpeg binary for macOS from the official FFmpeg build source: [https://evermeet.cx/ffmpeg/](https://evermeet.cx/ffmpeg/)
 b. Store the downloaded file in an easily accessible location, such as your Desktop.
 
 ## Step 3: Prepare Your Video Files
@@ -69,13 +68,13 @@ b. Press **Convert Files** to begin the conversion.
 a. Exit the application.  
 b. Navigate to the location where your duplicated files are stored.
 
-Converted files will appear next to the original files and will include a: _converted suffix added to the filename.
+Converted files will appear next to the original files and will include a: `_converted` suffix added to the filename.
 
 ## Duplicate Handling
 If a converted file name already exists in the same location, the application will automatically append an incremental number:
 
-_converted_2
-_converted_3
+`_converted_2`
+`_converted_3`
 
 and so on.
 
@@ -85,9 +84,9 @@ No existing files will be overwritten.
 If you require technical support or would like to provide feedback, please contact:
 
 **Mason**
-at pupal-pry.7@icloud.com
+at [pupal-pry.7@icloud.com](at pupal-pry.7@icloud.com)
 
 I will respond as soon as possible.
 
 # Legal and Attributions
-Ensure you comply with local laws regarding audio recording and consent. Use this application at your own risk; the developer is not liable for any legal issues, damages, or losses. This software is provided "as is" without warranty. Always back up your original files before use. This application is not affiliated with or endorsed by Thinkware. Thinkware is a trademark of its respective owner. This application uses FFmpeg, which is licensed under the LGPL/GPL. For more information, visit https://ffmpeg.org/.
+Ensure you comply with local laws regarding audio recording and consent. Use this application at your own risk; the developer is not liable for any legal issues, damages, or losses. This software is provided "as is" without warranty. Always back up your original files before use. This application is not affiliated with or endorsed by Thinkware. Thinkware is a trademark of its respective owner. This application uses FFmpeg, which is licensed under the LGPL/GPL. For more information, visit [https://ffmpeg.org/](https://ffmpeg.org/).
