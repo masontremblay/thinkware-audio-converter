@@ -1,6 +1,5 @@
 # Thinkware Audio Converter
 
-
 ## Introduction
 This macOS application leverages FFmpeg — *"a complete, cross-platform solution to record, convert and stream audio and video"* — to convert MP4 files produced by Thinkware dash cameras (and potentially other dash cameras) into a new, widely compatible version of the same format.
 Some Thinkware dash cameras record audio using a format that is not fully supported by many macOS and iOS applications. Because of this, users may be unable to view, trim, or otherwise modify their recorded clips without losing the audio track. This issue is typically identified by a loud "pop" at the beginning of the clip followed by silence for the remainder.
