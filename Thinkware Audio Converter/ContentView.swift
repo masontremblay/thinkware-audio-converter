@@ -343,7 +343,7 @@ struct ContentView: View {
                 // MARK: - Legal and Attributions
                 
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Recording conversations or voices may be restricted or illegal in some regions without consent. You are responsible for understanding and complying with local laws before recording or using audio from your device. Use this application at your own risk. The developer is not responsible for any legal issues, damages, or losses resulting from use or misuse of this application. This application is provided free of charge and may be used and shared freely. No commercial warranty is provided. Always keep backups of your original videos before using this application. The application is provided “as is“ without warranties of any kind, express or implied, including but not limited to fitness for a particular purpose and noninfringement. This application is not affiliated with, endorsed by, or approved for use by Thinkware or any of its affiliates. “Thinkware“ or “THINKWARE“ is a trademark of its respective owner and is used for identification purposes only. Such use does not imply endorsement. This application uses **FFmpeg**, © the FFmpeg developers. FFmpeg is licensed under the LGPL or GPL depending on configuration. For more information, licensing details, and source code, visit: https://ffmpeg.org/")
+                    Text("Ensure you comply with local laws regarding audio recording and consent. Use this application at your own risk; the developer is not liable for any legal issues, damages, or losses. This software is provided 'as is' without warranty. Always back up your original files before use. This application is not affiliated with or endorsed by Thinkware. Thinkware is a trademark of its respective owner. This application uses FFmpeg, which is licensed under the LGPL/GPL. For more information, visit https://ffmpeg.org/.")
                     
                         .font(.caption)
                         .foregroundStyle(.secondary)
@@ -379,7 +379,7 @@ struct ContentView: View {
             }
 
             HStack(spacing: 0) {
-                Text("Ensure you comply with local laws regarding audio recording and consent. Use this application at your own risk; the developer is not liable for any legal issues, damages, or losses. This software is provided 'as is' without warranty. Always back up your original files before use. This application is not affiliated with or endorsed by Thinkware. Thinkware is a trademark of its respective owner. This application uses FFmpeg, which is licensed under the LGPL/GPL. For more information, visit https://ffmpeg.org/.")
+                Text("Convert MP4 clips recorded with Thinkware dash cameras that lose audio in QuickTime or other macOS applications by copying the video stream and converting the audio track to AAC using FFmpeg. This issue occurs because some Thinkware dash cameras record audio in a technically valid format that is not fully supported by certain macos applications, causing the audio track to appear present but fail during playback or editing. Thinkware Audio converter outputs a widely compatible MP4 file that retains audio when opened or edited")
                     .foregroundStyle(.secondary)
             }
         }
