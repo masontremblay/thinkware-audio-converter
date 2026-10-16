@@ -28,7 +28,7 @@ To use FFmpeg (and by extension, this app) on a Mac with Apple Silicon, you must
 - **Method 2:** Open Terminal and run the command: softwareupdate `--install-rosetta`
 
 ## Step 2: Download FFmpeg
-a. Download the static FFmpeg binary for macOS from the official FFmpeg build source: [https://evermeet.cx/ffmpeg/](https://evermeet.cx/ffmpeg/)
+a. Download the static FFmpeg binary for macOS from the official FFmpeg build source: [https://evermeet.cx/ffmpeg/](https://evermeet.cx/ffmpeg/)\
 b. Store the downloaded file in an easily accessible location, such as your Desktop.
 
 ## Step 3: Prepare Your Video Files
